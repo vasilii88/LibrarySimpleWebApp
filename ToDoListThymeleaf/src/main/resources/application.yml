@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/todolist?serverTimezone=UTC&useSSL=FALSE&allowPublicKeyRetrieval=true
+    username: root
+    password: Akv-jA247-8thA247-8
+
+  jpa:
+    hibernate:
+      dialect: org.hibernate.dialect.MySQL8Dialect
+      show_sql: true
+      hbm2ddl.auto: update
+      connection.pool_size: 10
